@@ -13,12 +13,10 @@
             margin-left: 4px;
         }
         .auto-style3 {
-            border-style: solid;
-            border-width: 3px;
         }
     </style>
 </head>
-<body style="width: 387px; margin-left: 480px; margin-top: 83px">
+<body style="border-style: solid; border-width: 3px; padding: 1px 4px; width: 387px; margin-left: 480px; margin-top: 83px; height: 317px;">
     <form id="form1" runat="server">
         <div class="auto-style3">
             <h1 style="text-align:center">Looping Division</h1>

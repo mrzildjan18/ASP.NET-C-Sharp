@@ -12,11 +12,11 @@
         }
         .auto-style2 {
             border-style: solid;
-            border-width: 3px;
+            border-width: 0px;
         }
     </style>
 </head>
-<body style="width: 335px; margin-left: 492px; margin-top: 157px">
+<body style="border-style: solid; border-width: 3px; padding: 1px 4px; width: 335px; margin-left: 492px; margin-top: 157px; height: 329px;">
     <form id="form1" runat="server">
         <div class="auto-style2">
             <h1 style="text-align:center">Looping Determine</h1>

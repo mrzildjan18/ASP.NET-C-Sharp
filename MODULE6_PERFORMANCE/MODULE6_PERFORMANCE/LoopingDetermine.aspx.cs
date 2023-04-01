@@ -14,7 +14,6 @@ namespace MODULE6_PERFORMANCE
             // Visible false onpage load
             divDetermine.Visible = false;
         }
-
         protected void btnDetermine_Click(object sender, EventArgs e)
         {
             // Visible true onclick button

@@ -11,6 +11,7 @@ namespace MODULE5_PERFORMANCE
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // On Page Load Hide Payslip
             paySlip.Visible = false;
         }
 

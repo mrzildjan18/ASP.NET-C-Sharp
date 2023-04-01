@@ -8,14 +8,11 @@
     <style type="text/css">
         .auto-style1 {
             border-style: solid;
-            border-width: 2px;
+            border-width: 3px;
             padding: 1px 4px;
-            height: 1004px;
+            height: 1026px;
             text-align: left;
             width: 484px;
-        }
-        .auto-style2 {
-            font-size: x-large;
         }
         .auto-style3 {
             font-size: xx-large;
@@ -45,11 +42,11 @@
         }
     </style>
 </head>
-<body style="width: 499px; height: 1004px; margin-left: 427px; margin-top: 46px">
+<body style="width: 497px; height: 1010px; margin-left: 427px; margin-top: 46px">
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <strong><span class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="auto-style3">Payroll System<br />
-            </span></strong><br />
+            <h1 style="text-align:center">Payroll System</h1>
+            <br />
             First Name:
             <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
             <br />
@@ -92,7 +89,7 @@
             <br />
             <br />
             <div id="paySlip" runat="server">
-            <table class="auto-style6">
+            <table id="tablePaySlip" runat="server" class="auto-style6">
                 <caption class="auto-style3">
                     <strong>Employee Payslip</strong></caption>
                 <tr>
@@ -214,15 +211,10 @@
                     </td>
                 </tr>
             </table>
-            </div>
-            <br />
-            <br />
-            <br />
+          </div>
         </div>
+      <br />
+      <br />
     </form>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
 </body>
 </html>

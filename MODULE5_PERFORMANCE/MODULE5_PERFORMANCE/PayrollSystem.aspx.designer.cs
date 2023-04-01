@@ -114,6 +114,15 @@ namespace MODULE5_PERFORMANCE
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl paySlip;
 
         /// <summary>
+        /// tablePaySlip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlTable tablePaySlip;
+
+        /// <summary>
         /// displayFullName control.
         /// </summary>
         /// <remarks>
