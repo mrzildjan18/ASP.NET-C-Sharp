@@ -87,22 +87,22 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtBirthdate;
 
         /// <summary>
-        /// rfvtxtBirthdate control.
+        /// rfvBirthdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvtxtBirthdate;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvBirthdate;
 
         /// <summary>
-        /// cvBirthdate control.
+        /// revBirthdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cvBirthdate;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revBirthdate;
 
         /// <summary>
         /// ddlGender control.
@@ -321,24 +321,6 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtTelephoneNo;
 
         /// <summary>
-        /// rfvTelephoneNo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTelephoneNo;
-
-        /// <summary>
-        /// revTelephoneNo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTelephoneNo;
-
-        /// <summary>
         /// txtMobileNo control.
         /// </summary>
         /// <remarks>
@@ -447,15 +429,6 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtOtherSourceFunds;
 
         /// <summary>
-        /// rfvOtherSourceFunds control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOtherSourceFunds;
-
-        /// <summary>
         /// ddlEmploymentStatus control.
         /// </summary>
         /// <remarks>
@@ -481,15 +454,6 @@ namespace FORM_BANK_ACCOUNT
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtOtherEmploymentStatus;
-
-        /// <summary>
-        /// rfvOtherEmploymentStatus control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOtherEmploymentStatus;
 
         /// <summary>
         /// ddlIDType control.
@@ -519,69 +483,6 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtOtherID;
 
         /// <summary>
-        /// rfvOtherID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOtherID;
-
-        /// <summary>
-        /// fupFrontID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fupFrontID;
-
-        /// <summary>
-        /// rfvFrontID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFrontID;
-
-        /// <summary>
-        /// revFrontID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revFrontID;
-
-        /// <summary>
-        /// fupBackID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fupBackID;
-
-        /// <summary>
-        /// rfvBackID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvBackID;
-
-        /// <summary>
-        /// revBackID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revBackID;
-
-        /// <summary>
         /// ddlAccountType control.
         /// </summary>
         /// <remarks>
@@ -607,15 +508,6 @@ namespace FORM_BANK_ACCOUNT
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtOthers;
-
-        /// <summary>
-        /// rfvOthers control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOthers;
 
         /// <summary>
         /// txtMothersLname control.
@@ -663,15 +555,6 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtMothersMname;
 
         /// <summary>
-        /// rfvMothersMname control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMothersMname;
-
-        /// <summary>
         /// txtMothersOccupation control.
         /// </summary>
         /// <remarks>
@@ -679,15 +562,6 @@ namespace FORM_BANK_ACCOUNT
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMothersOccupation;
-
-        /// <summary>
-        /// rfvMothersOccupation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMothersOccupation;
 
         /// <summary>
         /// txtFathersLname control.
@@ -735,15 +609,6 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtFathersMname;
 
         /// <summary>
-        /// rfvFathersMname control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFathersMname;
-
-        /// <summary>
         /// txtFathersOccupation control.
         /// </summary>
         /// <remarks>
@@ -753,13 +618,22 @@ namespace FORM_BANK_ACCOUNT
         protected global::System.Web.UI.WebControls.TextBox txtFathersOccupation;
 
         /// <summary>
-        /// rfvFathersOccupation control.
+        /// chkTerms control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFathersOccupation;
+        protected global::System.Web.UI.WebControls.CheckBox chkTerms;
+
+        /// <summary>
+        /// cvTerms control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator cvTerms;
 
         /// <summary>
         /// btnSubmit control.
